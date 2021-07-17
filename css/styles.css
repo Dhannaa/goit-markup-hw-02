@@ -1,0 +1,123 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --address-link-color: rgba(255, 255, 255, 0.6);
+  --primary-white-color: #ffffff;
+  --primary-black-color: #000000;
+  --secondary-bg-color: #f5f4fa;
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.web {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--primary-black-color);
+}
+/*nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.link .curent {
+  color: var(--accent-color);
+}
+.auth-nav .link {
+  color: var(--secondary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*the hero*/
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--primary-white-color);
+}
+.btn-primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  display: flex;
+  text-align: center;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #188ce8;
+}
+/* the main section*/
+.section-subtitle {
+  color: var(--primary-black-color);
+}
+.section-text {
+  color: var(--secondary-text-color);
+}
+
+.team {
+  background-color: var(--secondary-bg-color);
+}
+
+/*portfolio filters*/
+
+.btn-secondary {
+  color: var(--primary-text-color);
+  background-color: var(--secondary-bg-color);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px #00000040;
+  cursor: pointer;
+}
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*portfolio projects*/
+.portfolio-title {
+  color: var(--primary-text-color);
+}
+
+.portfolio-text {
+  color: var(--secondary-text-color);
+}
+
+/*footer*/
+.footer {
+  background-color: #2f303a;
+}
+.footer .studio {
+  color: var(--primary-white-color);
+}
+.address-text {
+  color: var(--primary-white-color);
+}
+.address .link {
+  color: var(--address-link-color);
+}
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
